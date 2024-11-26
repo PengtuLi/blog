@@ -23,3 +23,11 @@ go.work.sum
 
 # env file
 .env
+
+# gen
+public
+resources
+
+# mac
+.DS_Store
+.obsidian
