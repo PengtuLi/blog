@@ -1,5 +1,9 @@
-# patrick-blog
-personal blog
+> “Think different.” —— Apple Inc.
 
-密密麻麻
-啊实打实
+Hi all, thank you for visiting here ;-)
+
+`License`
+
+Released under the **MIT License**.
+
+Copyright © 2025 Patrick Li.
