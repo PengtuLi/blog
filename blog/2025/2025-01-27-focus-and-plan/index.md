@@ -1,5 +1,5 @@
 ---
-title: "Focus and plan"
+title: "Focus and Plan"
 authors: [OrionLi]
 tags: ["think"]
 ---
@@ -57,5 +57,11 @@ tags: ["think"]
 ## 参考
 
 - https://www.bilibili.com/video/BV1Ku4m1u71p
-- https://www.bilibili.com/video/BV1Ku4m1u71p
 - https://www.bilibili.com/video/BV1CT411u7yC
+
+## 与大脑合作
+
+1. 大脑会去做你想要它去做的事。告诉大脑你想要的具体目标是什么，享受它，并且相信这是你自己选择的。
+2. 大脑的本能是趋向快乐、远离痛苦。把完成目标的过程和强烈的快乐感联系起来。
+3. 大脑会很大程度受到自身言语和想象画面的影响。改变大脑想象的画面，多想象实现目标的画面；创造信念，信念就会塑造你。
+4. 大脑爱做熟悉的事。把熟悉的事（拖延、分心）变陌生，把陌生的事（专注、执行计划）变熟悉。

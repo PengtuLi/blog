@@ -1,5 +1,5 @@
 code:
-  label: Code
+  label: CODE
   permalink: /code
 
 llm:
@@ -7,7 +7,7 @@ llm:
   permalink: /llm
 
 linux:
-  label: Linux
+  label: LINUX
   permalink: /linux
 
 pl:
@@ -19,7 +19,7 @@ cpp:
   permalink: /cpp
 
 proxy:
-  label: Peoxy
+  label: PROXY
   permalink: /proxy
 
 ssh:
@@ -27,17 +27,17 @@ ssh:
   permalink: /ssh
 
 career:
-  label: Career
+  label: CAREER
   permalink: /career
 
 neovim:
-  label: NeoVim
+  label: NEOVIM
   permalink: /neovim
 
 eng:
-  label: Eng
+  label: ENG
   permalink: /eng
 
 think:
-  label: Thinking
+  label: THINKING
   permalink: /think

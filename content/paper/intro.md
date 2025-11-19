@@ -1,5 +1,6 @@
 ---
 title: Welcome
+sidebar_position: 1
 ---
 
-This is the documentation homepage. You can link to other docs from here.
+Some research thinking, paper reading notes... 
