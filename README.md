@@ -6,4 +6,4 @@ Hi all, thank you for visiting here ;-)
 
 Released under the **MIT License**.
 
-Copyright © 2025 Patrick Li.
+Copyright © 2026 OrionLi.
