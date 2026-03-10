@@ -115,7 +115,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: "Patrick's Site",
+      title: "Orion's Site",
       logo: {
         alt: "My Site Logo",
         src: "img/logo.svg",
@@ -175,7 +175,7 @@ const config: Config = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © ${new Date().getFullYear()} Patrick Knowledge Library, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Orion Knowledge Library, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
