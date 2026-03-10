@@ -8,13 +8,14 @@ import rehypeKatex from "rehype-katex";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "Patrick's Site",
-  tagline: "Dinosaurs are cool",
+  title: "Orion's Site",
+  tagline: "Think are cool",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    experimental_faster: true
   },
 
   // Set the production url of your site here

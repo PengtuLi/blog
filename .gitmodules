@@ -1,0 +1,3 @@
+[submodule "blog-deploy"]
+	path = blog-deploy
+	url = https://github.com/PengtuLi/blog-deploy.git
