@@ -19,15 +19,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: "http://blog-liard.vercel.app/",
+  url: "http://8.163.32.186/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "pengtuli", // Usually your GitHub org/user name.
+  projectName: "blog", // Usually your repo name.
 
   onBrokenLinks: "throw",
 
@@ -44,9 +44,9 @@ const config: Config = {
       "classic",
       {
         docs: {
-          path: "content/paper", // ✅ 新的文档文件夹路径
-          sidebarPath: "./sidebars.ts", // 侧边栏文件（可以不变，也可以改名）
-          routeBasePath: "paper", // ✅ 新的 URL 前缀：不再是 /docs，而是 /documentation
+          path: "content/paper",
+          sidebarPath: "./sidebars.ts",
+          routeBasePath: "paper",
           editUrl: "https://github.com/pengtuli/blog/tree/main/content/paper",
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
@@ -87,8 +87,8 @@ const config: Config = {
       {
         id: "learning",
         path: "content/learning",
-        routeBasePath: "learning", // URL 前缀：/learning/*
-        sidebarPath: "./sidebars.ts", // 独立侧边栏
+        routeBasePath: "learning",
+        sidebarPath: "./sidebars.ts",
         editUrl: "https://github.com/pengtuli/blog/tree/main/content",
         remarkPlugins: [remarkMath],
         rehypePlugins: [rehypeKatex],
@@ -99,8 +99,20 @@ const config: Config = {
       {
         id: "leetcode",
         path: "content/leetcode",
-        routeBasePath: "leetcode", // URL 前缀：/leetcode/*
-        sidebarPath: "./sidebars.ts", // 独立侧边栏
+        routeBasePath: "leetcode",
+        sidebarPath: "./sidebars.ts",
+        editUrl: "https://github.com/pengtuli/blog/tree/main/content",
+        remarkPlugins: [remarkMath],
+        rehypePlugins: [rehypeKatex],
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "reflection",
+        path: "content/reflection",
+        routeBasePath: "reflection",
+        sidebarPath: "./sidebars.ts",
         editUrl: "https://github.com/pengtuli/blog/tree/main/content",
         remarkPlugins: [remarkMath],
         rehypePlugins: [rehypeKatex],
@@ -140,6 +152,13 @@ const config: Config = {
           position: "left",
           label: "Leetcode",
           docsPluginId: "leetcode",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "reflectionSidebar",
+          position: "left",
+          label: "Reflection",
+          docsPluginId: "reflection",
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
@@ -184,10 +203,10 @@ const config: Config = {
   } satisfies Preset.ThemeConfig,
   stylesheets: [
     {
-      href: "https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css",
+      href: "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css",
       type: "text/css",
       integrity:
-        "sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM",
+        "sha384-nB0miv6/jRmo5UMMR1wu3Gz6NsoCbjUsmT4zB5KYQgfI0xwk6EtOv4F7o/Y3HpHr",
       crossorigin: "anonymous",
     },
   ],
