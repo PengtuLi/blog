@@ -1,3 +1,6 @@
 [submodule "blog-deploy"]
 	path = blog-deploy
 	url = https://github.com/PengtuLi/blog-deploy.git
+[submodule "secret"]
+	path = secret
+	url = https://github.com/PengtuLi/secret.git
