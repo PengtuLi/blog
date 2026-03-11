@@ -1,6 +1,6 @@
 > “Think different.” —— Apple Inc.
 
-Hi all, thank you for visiting here ;-)
+Hi , thank you for visiting here ;-)
 
 `License`
 
