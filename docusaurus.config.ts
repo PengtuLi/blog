@@ -9,7 +9,7 @@ import rehypeKatex from "rehype-katex";
 
 const config: Config = {
   title: "Orion's Site",
-  tagline: "Think are cool",
+  tagline: "Think different.",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
