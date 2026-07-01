@@ -1,4 +1,4 @@
-> “Think different.” —— Apple Inc.
+> "Think different." —— Apple Inc.
 
 Hi , thank you for visiting here ;-)
 
@@ -6,4 +6,4 @@ Hi , thank you for visiting here ;-)
 
 Released under the **MIT License**.
 
-Copyright © 2026 OrionLi.
+Copyright © OrionLi.
