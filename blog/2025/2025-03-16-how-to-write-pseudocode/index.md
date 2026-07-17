@@ -9,6 +9,8 @@ tags: ["code"]
 伪代码是一种用于描述算法的结构化语言。它允许设计者**专注于算法的逻辑**，而不会被语言语法的细节所分散。
 同时，伪代码需要**完整**，它描述算法的整个逻辑，使得实现变成了一种机械的逐行翻译成源代码的任务。
 
+标准：
+
 - concise: In general the vocabulary used in the pseudocode **should be the vocabulary of the problem domain**, not of the implementation domain. The pseudocode is a narrative for someone who knows the requirements (problem domain) and is trying to learn how the solution is organized. 可以假设你在向一个不会编程的人描述你实现某个算法的过程。
 
 ```raw
@@ -28,6 +30,8 @@ FOR character = first to last (ok)
 
 - structured: The "structured" part of pseudocode is a notation for representing six specific structured programming constructs: SEQUENCE, WHILE, IF-THEN-ELSE, REPEAT-UNTIL, FOR, and CASE.
 
+一些专业术语：
+
 ```raw
 **SEQUENCE** is a linear progression where one task is performed sequentially after another.
 **WHILE** is a loop (repetition) with a simple conditional test at its **beginning**.
@@ -35,9 +39,9 @@ FOR character = first to last (ok)
 **REPEAT-UNTIL** is a loop with a simple conditional test at the **bottom**.
 **CASE** is a multiway branch (decision) based on the value of an expression. CASE is a generalization of IF-THEN-ELSE.
 **FOR** is a "counting" loop.
+**CALL** INVOKING SUBPROCEDURES
 
-# SEQUENCE
-all actions aligned with the same indent
+eg:
 
 # IF-THEN-ELSE
 IF HoursWorked > NormalMax THEN
@@ -76,12 +80,7 @@ FOR each month of the year
     sequence
 ENDFOR
 
------------------------------------
-
-#  INVOKING SUBPROCEDURES
-
-Use the CALL keyword. For example:
-
+# Use the CALL keyword. For example:
 CALL AvgAge with StudentAges
 CALL Swap with CurrentItem and TargetItem
 CALL Account.debit with CheckAmount
