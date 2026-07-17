@@ -11,6 +11,9 @@ const config: Config = {
   title: "Orion's Site",
   tagline: "Think different.",
   favicon: "img/favicon.ico",
+  customFields: {
+    pinnedBlogPosts: ["/blog/2025/01/27/2025/how-to-be-a-better-cs-phd"],
+  },
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -56,6 +59,7 @@ const config: Config = {
         },
         blog: {
           showReadingTime: true,
+          showLastUpdateTime: true,
           blogSidebarCount: "ALL",
           postsPerPage: "ALL",
           feedOptions: {

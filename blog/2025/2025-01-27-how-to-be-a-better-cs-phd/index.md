@@ -4,15 +4,6 @@ authors: [OrionLi]
 tags: ["think"]
 ---
 
-```raw
-`24/10/2024`现在我是大四上学期，已经保研直博啦！时常对未来感到焦虑，经常思考自己做的对不对，知乎/B站一些优秀前辈的回答受益匪浅。这里就记录自己阅读的感受以及一些规划！想了想，不可能面面俱到，就采用QA的形式啦！常看常新，会保持更新的！
-`24/10/28`更新了如何提高代码能力的思考
-`24/10/29`更新了leetcode刷题的思考
-`25/3/6`整合了一些学习的文章
-`25/4/11`加入了ROADMAP部分
-`25/9/25`加入了如何阅读代码的部分
-```
-
 ## QA
 
 ### 一篇论文的阅读时间？做笔记如何做？
@@ -99,48 +90,6 @@ tags: ["think"]
 - 多做报告。学习如何沟通、介绍自己的想法，同时收获他人的建议。学习如何合理提出建议。<mark>这个最近有在和君逸师兄讨论的时候做过</mark>
 - 多做社交。参加各种学术交流，认识更多的人，拓展人脉，交流。为之后学术发展路。
 
-### How to Read Source Code
-
-#### tip
-1. learn from earlier unoptimized version
-
-一个技巧（learned from reading the source code of lamma.cpp）：阅读高度优化的代码以掌握底层概念是一种相当不理想的学习方法。建议通过在GitHub的`karpathy/llama2.c/run.c`的master分支中进行调试来代替。它是故意完全未优化的（即使是矩阵乘法也是最基本的“原始”实现。
-
-同理，对于一个复杂的代码，我们可以找有没有人写出它的一个简要版本代码，或是从该库的早期版本学习。
-
-2. using the working exp and debugger to step into
-
-In general, the starting point would be to get a **working example** and then **use a debugger** to step through the code.
-
-This is absolutely what I would recommend. We don't have to try and understand libraries from their source code alone, we can use the running state, set breakpoints, and explore explore explore. I highly recommend using a debugger to see how llama.cpp or any open source code works!深深赞同，阅读llama.cpp有感
-
-3. start from other's tutorials
-
-对于复杂的项目以及自己不熟悉的领域，可以通过他人的优秀的解析blog以及video，来快速在high level掌控整个项目，以及该项目最重要的概念/函数/类。
-
-4. 画图也是一个很好的方法
-
-- 宏观层：架构图 → 了解整体布局
-- 中观层：模块依赖图 → 理解组件关系
-- 微观层：类图/调用图/时序图（并发）/数据流图 → 掌握具体实现
-
-#### steps
-
-- 环境配好，代码可以跑起来
-- 明确阅读代码的目标，是为了找bug，还是了解总体架构，还是了解某个功能实现...
-- 阅读文档，README等非代码文件。可以让AI看看哪些文档值得读
-- 阅读代码
-  - loop（找到一个焦点，可以是入口/类/函数...，一层层，往下看），过程中可以用一些可视化代码结构的工具找焦点(dotviz)
-    - main
-    - UI handler
-    - test case
-    - speculate/grep
-  - 广度优先(大部分) + 深度优先 + ai
-  - chunk的方式去阅读代码
-
-
-https://github.com/pyeprog/code-reading-video-clip 一个很好的例子
-
 ### 做科研和基础知识的关系
 
 现在迫切地想开启一个自己的题目，但是有感觉自己代码能力不足，想补一补基础知识和代码能力，比如学一些国外课程，项目啥的。有点迷茫，不太明白是该边科研补知识还是先补知识。
@@ -157,15 +106,12 @@ https://github.com/pyeprog/code-reading-video-clip 一个很好的例子
 
 ## ROADMAP
 
-更新一些学习的方向在这里，不断更新
-
-### 2025
+更新一些学习的checklist在这里，不断更新
 
 https://www.bilibili.com/video/BV1du4y1B7L6?vd_source=a7c922a84c8a8ecd0eb4a4fbe08d2038&spm_id_from=333.788.videopod.sections
 熊爷这个up主挺好的
 
-先做一个文件系统试一下
-https://www3.nd.edu/~pbui/teaching/cse.30341.fa19/project06.html
+- [x] 先做一个文件系统试一下 https://www3.nd.edu/~pbui/teaching/cse.30341.fa19/project06.html
 
 OS课-MIT 6.S081
 

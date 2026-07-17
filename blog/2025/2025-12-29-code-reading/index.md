@@ -16,9 +16,7 @@ tags: ["code"]
 
 In general, the starting point would be to get a **working example** and then **use a debugger** to step through the code.
 
-3. start from other's tutorials
-
-对于复杂的项目以及自己不熟悉的领域，可以通过他人的优秀的解析blog以及video，来快速在high level掌控整个项目，以及该项目最重要的概念/函数/类。
+3. start from other's tutorials(blog or something)
 
 4. 不要逐行阅读：80% 的代码是常规逻辑，聚焦 20% 的核心路径。
 
@@ -29,9 +27,17 @@ In general, the starting point would be to get a **working example** and then **
 ### 自顶向下
 
 ```
-1. 宏观层：架构图 → 了解整体布局
-2. 中观层：定位关键模块，理清数据/控制流。
-3. 微观层：理解具体算法、边界条件、性能细节。
+- 环境配好，代码可以跑起来
+- 明确阅读代码的目标，是为了找bug，还是了解总体架构，还是了解某个功能实现...
+- 阅读文档，README等非代码文件。可以让AI看看哪些文档值得读
+- 阅读代码
+  - loop（找到一个焦点，可以是入口/类/函数...，一层层，往下看），过程中可以用一些可视化代码结构的工具找焦点(dotviz)
+    - main
+    - UI handler
+    - test case
+    - speculate/grep
+  - 广度优先(大部分) + 深度优先 + ai
+  - chunk的方式去阅读代码
 ```
 
 ### 5W1H 原则
@@ -43,3 +49,8 @@ Who：谁调用它？它依赖谁？
 Where：关键逻辑存在于哪些文件？
 When：生命周期何时触发？（初始化/销毁时机）
 How：如何处理边界情况？（空输入、超时、并发）
+
+### 多画图
+
+- 宏观层：架构图 → 了解整体布局
+- 微观层：类图/时序图/数据流图/流程图 → 掌握具体实现
