@@ -1,5 +1,5 @@
 ---
-title: "270 行 Python 复刻 Claude Code：nanocode 源码精读笔记"
+title: "270行Python复刻ClaudeCode：nanocode"
 authors: [OrionLi]
 tags: ["llm", "code"]
 ---
