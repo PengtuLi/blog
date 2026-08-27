@@ -1,3 +1,4 @@
 [submodule "secret"]
 	path = secret
 	url = https://github.com/PengtuLi/secret.git
+	branch = main
