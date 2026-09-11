@@ -1,8 +1,7 @@
 ---
 title: "Eng Word Card"
-authors: [OrionLi]
-tags: ["eng"]
 ---
+
 
 暂时COPY了一下以前的笔记
 

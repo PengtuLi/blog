@@ -1,7 +1,7 @@
 ---
 title: "How to write a Pseudo Code"
 authors: [OrionLi]
-tags: ["code"]
+tags: ["methodology"]
 ---
 
 怎样去用伪代码描述一个算法是很重要的，下面是一些推荐的标准。

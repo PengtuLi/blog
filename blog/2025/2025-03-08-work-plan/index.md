@@ -1,7 +1,7 @@
 ---
 title: "2025 研究生学长找找工作经验分享"
 authors: [OrionLi]
-tags: ["career"]
+tags: ["think"]
 ---
 
 ## 选调

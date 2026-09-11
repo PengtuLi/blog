@@ -1,7 +1,7 @@
 ---
 title: "How to Read Code?"
 authors: [OrionLi]
-tags: ["code"]
+tags: ["methodology"]
 ---
 
 ## 技巧

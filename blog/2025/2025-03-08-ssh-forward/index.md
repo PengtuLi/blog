@@ -1,7 +1,7 @@
 ---
 title: "Ssh Port Forward"
 authors: [OrionLi]
-tags: ["proxy", "ssh"]
+tags: ["network"]
 ---
 
 转发前提：

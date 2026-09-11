@@ -1,7 +1,7 @@
 ---
 title: "Access Campus Network From Outside"
 authors: [OrionLi]
-tags: ["proxy"]
+tags: ["network"]
 ---
 
 寒假回家，需要访问校园网内的服务器怎么办呢？

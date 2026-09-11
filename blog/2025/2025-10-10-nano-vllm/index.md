@@ -1,7 +1,7 @@
 ---
 title: "nano-vllm"
 authors: [OrionLi]
-tags: ["llm", "code"]
+tags: ["llm", "project"]
 ---
 
 ## 简介

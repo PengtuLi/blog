@@ -1,43 +1,38 @@
-code:
-  label: CODE
-  permalink: /code
+# Tag 分类体系（README 写作约定有完整说明）：
+# - 类别层（少量稳定，不轻易新增）：methodology / project / think
+# - 话题层（按 Stack Overflow 惯例自由新增）：
+#   - 主题轴：内容关于什么（llm, network, linux）
+#   - 工具轴：以某个工具为绝对主角时才用（neovim）
+# 命名惯例：全小写，多词用连字符，用最具体的适用 tag。
+# 新 tag 直接在 front matter 写即可，记得来这里补一行定义。
 
+# 类别层
+methodology:
+  label: METHODOLOGY
+  permalink: /methodology
+
+project:
+  label: PROJECT
+  permalink: /project
+
+think:
+  label: THINKING
+  permalink: /think
+
+# 话题层-主题
 llm:
   label: LLM
   permalink: /llm
+
+network:
+  label: NETWORK
+  permalink: /network
 
 linux:
   label: LINUX
   permalink: /linux
 
-pl:
-  label: PL
-  permalink: /pl
-
-cpp:
-  label: C++
-  permalink: /cpp
-
-proxy:
-  label: PROXY
-  permalink: /proxy
-
-ssh:
-  label: SSH
-  permalink: /ssh
-
-career:
-  label: CAREER
-  permalink: /career
-
+# 话题层-工具
 neovim:
   label: NEOVIM
   permalink: /neovim
-
-eng:
-  label: ENG
-  permalink: /eng
-
-think:
-  label: THINKING
-  permalink: /think
