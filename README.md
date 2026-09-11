@@ -20,7 +20,7 @@ Hi, thank you for visiting here ;-)
 
 ## 复盘路径
 
-1. `content/reflection/<year>/` —— 年度入口：`daily.md` 每日原料 → 月记提炼 → 值得成文的写成 blog
+1. `content/reflection/<year>/` —— 年度入口：`daily.md` 每日原料 → 月记思考 → 值得成文的写成 blog
 2. 各主题目录下的 `index.md` —— 某个主题是做什么，学过什么、产出了哪篇 blog
 3. `blog/` —— 按时间翻成品文章，或通过 tags 检索
 
