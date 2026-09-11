@@ -17,8 +17,8 @@ const config: Config = {
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
-    experimental_faster: true
+    v4: true, // Enable all v4 compatibility flags
+    faster: true // Use faster build tooling (Rspack, SWC, etc.)
   },
 
   // Set the production url of your site here
@@ -122,6 +122,19 @@ const config: Config = {
         rehypePlugins: [rehypeKatex],
       },
     ],
+    [
+      "@easyops-cn/docusaurus-search-local",
+      {
+        hashed: true,
+        indexDocs: true,
+        indexBlog: true,
+        docsRouteBasePath: ["paper", "learning", "leetcode", "reflection"],
+        blogRouteBasePath: "blog",
+        language: ["en", "zh"],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+      },
+    ],
   ],
 
   themeConfig: {
@@ -198,7 +211,7 @@ const config: Config = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © ${new Date().getFullYear()} Orion Knowledge Library, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Orion's Knowledge Library, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

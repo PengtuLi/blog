@@ -1,6 +1,8 @@
+## WELCOME
+
 > "Think different." —— Apple Inc.
 
-Hi , thank you for visiting here ;-)
+Hi, thank you for visiting here ;-)
 
 ## 目录说明
 
@@ -19,7 +21,7 @@ Hi , thank you for visiting here ;-)
 ## 复盘路径
 
 1. `content/reflection/<year>/` —— 年度入口：`daily.md` 每日原料 → 月记提炼 → 值得成文的写成 blog
-2. 各主题目录下的 `index.md` —— 某个主题学过什么、产出了哪篇 blog
+2. 各主题目录下的 `index.md` —— 某个主题是做什么，学过什么、产出了哪篇 blog
 3. `blog/` —— 按时间翻成品文章，或通过 tags 检索
 
 ## 写作约定
@@ -46,12 +48,11 @@ Hi , thank you for visiting here ;-)
   命名惯例：全小写，多词用连字符，用最具体的适用 tag。
   新增 tag 直接写在 front matter 里即可，然后顺手在 `blog/tags.yml` 补一行定义（否则 tag 页显示原始字符串）。
   将来类别层文章多到需要细分时，可升级到 Diátaxis 四分类（tutorial / how-to / reference / explanation）。
-- **tags 是跨目录的检索线**：`content/` 里的主题和 `blog/` 文章共用同一套话题 tag（如 `llm`），方便一次搜索串起笔记和成品。
-- 标题/正文里写"未来的自己会搜的词"——目录只负责粗分，搜索负责精找。
+- **tags 只在 blog 内部生效**（生成 `/blog/tags/xxx` 聚合页）。`content/` 的笔记没有 tag 聚合页，跨目录串联靠**正文用词一致**：写 blog 时提及对应笔记的关键词（如"CS336 里记过"），写笔记时用同样的词，之后本地 `grep` 或编辑器全局搜索就能一次命中两边。
 - 新文章放哪不用纠结：模糊地带随便选一个放，之后随时可以挪（目录调整成本几乎为零）。
 
 ## License
 
 Released under the **MIT License**.
 
-Copyright © OrionLi.
+Copyright © Orion Li

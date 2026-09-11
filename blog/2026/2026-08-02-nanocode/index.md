@@ -6,7 +6,7 @@ tags: ["llm", "project"]
 
 最近花了一些时间精读了一个玩具项目 nanocode——一个不到 270 行、零依赖的 Python 单文件，完整复刻了 Claude Code 的核心架构：**agentic loop + tool use**。这篇文章是我的理解笔记，重点不是"它实现了什么"，而是"它的每个设计决策背后在权衡什么"。
 
-<!-- truncate -->
+{/* truncate */}
 
 ![nanocode 流程图](./流程图.png)
 
