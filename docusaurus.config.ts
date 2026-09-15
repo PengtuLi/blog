@@ -84,7 +84,7 @@ const config: Config = {
     ],
   ],
 
-  // add /leetcode and /learning
+  // add /work and /learning
   plugins: [
     [
       "@docusaurus/plugin-content-docs",
@@ -101,9 +101,9 @@ const config: Config = {
     [
       "@docusaurus/plugin-content-docs",
       {
-        id: "leetcode",
-        path: "content/leetcode",
-        routeBasePath: "leetcode",
+        id: "work",
+        path: "content/work",
+        routeBasePath: "work",
         sidebarPath: "./sidebars.ts",
         editUrl: "https://github.com/pengtuli/blog/tree/main/content",
         remarkPlugins: [remarkMath],
@@ -128,7 +128,7 @@ const config: Config = {
         hashed: true,
         indexDocs: true,
         indexBlog: true,
-        docsRouteBasePath: ["paper", "learning", "leetcode", "reflection"],
+        docsRouteBasePath: ["paper", "learning", "work", "reflection"],
         blogRouteBasePath: "blog",
         language: ["en", "zh"],
         highlightSearchTermsOnTargetPage: true,
@@ -165,10 +165,10 @@ const config: Config = {
         },
         {
           type: "docSidebar",
-          sidebarId: "leetcodeSidebar",
+          sidebarId: "workSidebar",
           position: "left",
-          label: "Leetcode",
-          docsPluginId: "leetcode",
+          label: "Work",
+          docsPluginId: "work",
         },
         {
           type: "docSidebar",
@@ -177,7 +177,7 @@ const config: Config = {
           label: "Reflection",
           docsPluginId: "reflection",
         },
-        { to: "/blog/tags", label: "Blog", position: "left" },
+        { to: "/blog/tags", label: "Blog", position: "right" },
         {
           href: "https://github.com/pengtuli/blog",
           label: "GitHub",

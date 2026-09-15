@@ -1,3 +1,9 @@
+## Repository guide
+
+Read `README.md` before exploring the repo or proposing changes — it defines the directory layout (`blog/` vs `content/`) and the tagging conventions.
+
+Keep it current: when a change alters that layout or those conventions, update `README.md` in the same change.
+
 ## Agent skills
 
 ### Issue tracker

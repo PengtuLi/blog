@@ -11,7 +11,7 @@ Hi, thank you for visiting here ;-)
 | `blog/` | Blog | **成品文章**：一次写完、有明确论点、值得将来重读的东西（按日期组织） |
 | `content/paper/` | Paper | 论文阅读：精读 / 泛读 / 科研方法 |
 | `content/learning/` | Learning | 学习笔记：课程、语言（`计算机/Python` 等）、单词卡等持续累积的材料 |
-| `content/leetcode/` | LeetCode | 刷题笔记leetcode/leetgpu，八股 |
+| `content/work/` | Work | 求职准备：简历与面试、八股、刷题笔记（leetcode / leetgpu） |
 | `content/reflection/` | Reflection | 复盘：`<year>/index.md` 月记 + `<year>/daily.md` 每日思考（单文件按日期追加） |
 
 一句话规则：**会持续累积、没有"写完"那一天的放 `content/`（工作底稿）；一次写完、成文的放 `blog/`（成品）。**
