@@ -120,6 +120,7 @@ const config: Config = {
         editUrl: "https://github.com/pengtuli/blog/tree/main/content",
         remarkPlugins: [remarkMath],
         rehypePlugins: [rehypeKatex],
+        exclude: ["vibe-love-bot/**"],
       },
     ],
     [
