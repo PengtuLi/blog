@@ -128,7 +128,7 @@ const config: Config = {
         hashed: true,
         indexDocs: true,
         indexBlog: true,
-        docsRouteBasePath: ["paper", "learning", "work", "reflection"],
+        docsRouteBasePath: ["paper", "learning", "work"],
         blogRouteBasePath: "blog",
         language: ["en", "zh"],
         highlightSearchTermsOnTargetPage: true,
