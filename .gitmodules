@@ -2,3 +2,7 @@
 	path = secret
 	url = https://github.com/PengtuLi/secret.git
 	branch = main
+[submodule "content/reflection"]
+	path = content/reflection
+	url = https://github.com/PengtuLi/reflection.git
+	branch = main
