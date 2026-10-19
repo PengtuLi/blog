@@ -111,19 +111,6 @@ const config: Config = {
       },
     ],
     [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "reflection",
-        path: "content/reflection",
-        routeBasePath: "reflection",
-        sidebarPath: "./sidebars.ts",
-        editUrl: "https://github.com/pengtuli/blog/tree/main/content",
-        remarkPlugins: [remarkMath],
-        rehypePlugins: [rehypeKatex],
-        exclude: ["vibe-love-bot/**"],
-      },
-    ],
-    [
       "@easyops-cn/docusaurus-search-local",
       {
         hashed: true,
@@ -171,13 +158,7 @@ const config: Config = {
           label: "Work",
           docsPluginId: "work",
         },
-        {
-          type: "docSidebar",
-          sidebarId: "reflectionSidebar",
-          position: "left",
-          label: "Reflection",
-          docsPluginId: "reflection",
-        },
+        { to: "pathname:///reflection/", target: "_self", label: "Reflection", position: "left" },
         { to: "/blog/tags", label: "Blog", position: "right" },
         {
           href: "https://github.com/pengtuli/blog",
